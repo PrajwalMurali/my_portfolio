@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajwal Murali | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+            background: #F0F4F8;
+            color: #333;
             text-align: center;
-            background: linear-gradient(to right, #ffffff, #243B55);
-            color: white;
         }
         header {
-            background: rgba(0, 0, 0, 0.7);
+            background: #4A90E2;
             padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: #FFFFFF;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
         }
         section {
-            padding: 20px;
+            padding: 40px 20px;
         }
         .container {
-            max-width: 900px;
+            max-width: 1100px;
             margin: auto;
             display: flex;
             flex-wrap: wrap;
@@ -29,38 +38,27 @@
             gap: 20px;
         }
         .card {
-            background: rgba(0, 0, 0, 0.1);
+            background: #FFFFFF;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2));
-            backdrop-filter: blur(10px);
-            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 320px;
             text-align: center;
-            transition: transform 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
         .card:hover {
             transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         }
         .card img {
             width: 100%;
             height: auto;
             border-radius: 10px;
-            margin-bottom: 10px;
-        }
-        footer {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 10px;
-            margin-top: 20px;
-        }
-        a {
-            color: #FFD700;
-            text-decoration: none;
-            font-weight: bold;
         }
         button {
-            background: #FFD700;
-            color: black;
-            padding: 10px 20px;
+            background: #4A90E2;
+            color: #FFFFFF;
+            padding: 12px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -68,15 +66,26 @@
             transition: 0.3s;
         }
         button:hover {
-            background: white;
-            color: black;
+            background: #357ABD;
+        }
+        footer {
+            background: #4A90E2;
+            padding: 15px;
+            margin-top: 20px;
+            color: #FFFFFF;
+            font-size: 1rem;
+        }
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Prajwal Murali</h1>
-        <p>Photographer | Graphic Designer | vediographer | web Developer </p>
+        <p>Photographer | Graphic Designer | Videographer | Web Developer</p>
     </header>
     
     <section>
@@ -84,7 +93,7 @@
         <div class="container">
             <div class="card">
                 <h3>Who I Am</h3>
-                <p>A passionate photographer, graphic designer, and web developer</p>
+                <p>A passionate photographer, graphic designer, and web developer.</p>
             </div>
             <div class="card">
                 <h3>My Passion</h3>
@@ -94,25 +103,11 @@
     </section>
     
     <section>
-        <h2>Education</h2>
-        <div class="container">
-            <div class="card">
-                <h3>Pre-University Education</h3>
-                <p>Completed at St. Joseph's University.</p>
-            </div>
-            <div class="card">
-                <h3>Undergraduate Degree</h3>
-                <p>Currently pursuing BCA at Jain University.</p>
-            </div>
-        </div>
-    </section>
-    
-    <section>
         <h2>Skills</h2>
         <div class="container">
             <div class="card">
                 <h3>Photography</h3>
-                <p>Skilled in product,portrait,commercial,e-commerce photography.</p>
+                <p>Product, portrait, commercial, and e-commerce photography.</p>
             </div>
             <div class="card">
                 <h3>Graphic Design</h3>
@@ -122,18 +117,18 @@
                 <h3>Web Development</h3>
                 <p>Building responsive & interactive websites.</p>
             </div>
-          <div class="card">
-                <h3>UX designing</h3>
-                <p>Learning User experience designing .</p>
+            <div class="card">
+                <h3>UX Design</h3>
+                <p>Learning User Experience Design.</p>
             </div>
         </div>
     </section>
     
     <section>
-        <h2>Connect me through</h2>
+        <h2>Connect with Me</h2>
         <div class="container">
             <div class="card">
-                <h3>LinkedIn Profile</h3>
+                <h3>LinkedIn</h3>
                 <button onclick="window.location.href='https://www.linkedin.com/in/2027prajwal/'">View</button>
             </div>
             <div class="card">
@@ -144,14 +139,17 @@
     </section>
     
     <section>
+        <h2>Contact</h2>
         <div class="container">
             <div class="card">
                 <h3>Email</h3>
                 <p><a href="mailto:prajwalm2027@gmail.com">prajwalm2027@gmail.com</a></p>
-                 <h3>Phone No.</h3>
-                <p><a href=8296129560>8296129560</a></p>
+                <h3>Phone</h3>
+                <p>8296129560</p>
             </div>
+        </div>
     </section>
+    
 
 
 <section>
